@@ -7,13 +7,13 @@ import json
 
 # Attempt to import core dependencies, use minimal mocks if they fail
 try:
-    from engine.core.engine_state import EngineState
-    from engine.core.engine_runtime import EngineRuntime
-    from engine.core.scene_manager import Scene
-    from engine.managers.save_load_manager import SaveLoadManager
-    from engine.utils.file_utils import FileUtils
-    from engine.utils.vector2 import Vector2
-    from engine.utils.vector3 import Vector3
+    from ..engine.core.engine_state import EngineState
+    from ..engine.core.engine_runtime import EngineRuntime
+    from ..engine.core.scene_manager import Scene
+    from ..engine.managers.save_load_manager import SaveLoadManager
+    from ..engine.utils.file_utils import FileUtils
+    from ..engine.utils.vector2 import Vector2
+    from ..engine.utils.vector3 import Vector3
 except ImportError as e:
     print(f"[GameManager Import Error] {e}. Using Internal Mocks.")
     class EngineState: pass
