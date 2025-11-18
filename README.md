@@ -27,6 +27,12 @@
 
 ---
 
+## Links
+
+[API Reference](https://github.com/ne0gl1tch20/pygamestudio/blob/main/docs/api_reference.md)
+
+---
+
 ## Installation
 
 1. Clone the repository:
