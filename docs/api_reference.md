@@ -1,6 +1,5 @@
-=== docs/api_reference.md ===
-```markdown
-# Pygame Studio Engine V4 - GODMODE PLUS API Reference
+
+# Pygame Studio
 
 ## I. Engine Architecture and Core State
 
