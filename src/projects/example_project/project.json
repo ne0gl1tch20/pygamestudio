@@ -1,8 +1,0 @@
-{
-    "name": "Example Godmode Project",
-    "main_scene": "main_scene.json",
-    "is_3d": false,
-    "assets_path": "assets/",
-    "scripts_path": "scripts/",
-    "startup_script": "main.py"
-}
